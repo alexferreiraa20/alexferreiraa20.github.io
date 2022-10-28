@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: whitesmoke;
+}
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    text-align: center;
+    height: 24vh;
+    padding: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #046d8b;
+    gap: 200px;
+    justify-content: space-around;
+    
+}
+.serviços-atendimento div{
+    display: flex;
+    width: 70vw;
+    gap: 10vw;
+}
+
+.logo{
+    height: 11vw;
+    width: 30vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    font-size: 20px;
+    padding: 2vw;
+}
+
+.serviços-atendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    word-break: normal;
+
+}
+
+.melhores-hoteis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    height: 28vh;
+    width: 100%;
+}
+
+.fazer-cancelamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    height: 28vh;
+    width: 100%;
+}
+
+.atendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    height: 28vh;
+    width: 100%;
+}
+
+#ofertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+    justify-content: center;
+    background-image: url(./imagens/buildings-g77cf9d5d1_1920.png);
+    background-size: cover;
+    height: 70vh;
+    color:white;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.texto-ofertas-second{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    opacity: 0.9;   
+    color: black;
+}
+
+.texto-ofertas-third{
+    font-weight: 300;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    color: black;
+}
+
+input{
+    height: 8vh;
+    width: 20vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button{
+    border: 1px solid #046D8B;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    outline: none;
+    text-shadow: none;
+    color: black;
+    background-color: white;
+    color: #046D8B;
+    width: 14vh;
+    height: 8vh;
+    font-size: 15px;
+}
+
+.busca{
+    margin: 0 auto;
+    padding: 20px;
+    height: 32vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.locais-desejados{
+    font-size: 50px;
+    background-color: #2fb8ac;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+.cidade{
+    height: 20vw;
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 40vw;
+    border-style: hidden;
+}
+
+.listas-de-locais{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    margin-left: 7vh;
+    margin-top: 10vh;
+    margin-right: 4vh;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+    display: grid;
+    align-items: center;
+    align-content: space-between;
+    gap: 3px;
+}
+
+.primeira-lista{
+    width: 65vh;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    gap: 3vw;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgb(194, 184, 184)
+}
+.segunda-lista{
+    width: 65vh;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    gap: 3vw;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgb(194, 184, 184)
+}
+.terceira-lista{
+    width: 65vh;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    gap: 3vw;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgb(194, 184, 184)
+}
+
+footer{
+    border: 1px solid white;
+    text-align: center;
+    width: 100%; 
+    font-size: 20px;
+    gap:5px;
+    height: 16vh;
+    padding: 20px;
+    background-color: #309292;
+}
+
+.redes-sociais{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    height: 9vh;
+    gap: 25px;
+    padding: 10px;
+}
+
+img{
+    height: 4vh;
+    width: 4vh;
+    gap: 5px;
+    margin-top: 10px;
+}
