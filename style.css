@@ -13,15 +13,14 @@ body{
 header{
     text-align: center;
     height: 24vh;
-    padding: 50px;
+    padding: 3vw;
     font-size: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #046d8b;
-    gap: 200px;
+    gap: 14vw;
     justify-content: space-around;
-    
 }
 .serviços-atendimento div{
     display: flex;
@@ -185,9 +184,9 @@ a{
     flex-direction: row;
     gap: 30px;
     width: 100%;
-    margin-left: 7vh;
+    align-items: center;
+    justify-content: center;
     margin-top: 10vh;
-    margin-right: 4vh;
     flex-wrap: wrap;
 }
 
@@ -197,6 +196,7 @@ li{
     align-items: center;
     align-content: space-between;
     gap: 3px;
+    width: 100%;
 }
 
 .primeira-lista{
@@ -209,7 +209,6 @@ li{
     display: flex;
     align-items:center;
     gap: 3vw;
-    height: 100%;
     flex-direction: row;
     justify-content: center;
     box-shadow: 2px 2px 2px 2px rgb(194, 184, 184)
@@ -224,7 +223,6 @@ li{
     display: flex;
     align-items:center;
     gap: 3vw;
-    height: 100%;
     flex-direction: row;
     justify-content: center;
     box-shadow: 2px 2px 2px 2px rgb(194, 184, 184)
