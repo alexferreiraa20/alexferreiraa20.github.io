@@ -7,7 +7,6 @@ const locais= [{
     imagem: "./imagens/jp.jpg",
     saibaMais: "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Pessoa"
 }, {
-
     cidade: "Salvador",
     custoDeVida: 1800,
     eSeguro: false,
@@ -18,7 +17,7 @@ const locais= [{
     cidade: "Gramado",
     custoDeVida: 4000,
     eSeguro: true,
-    oQueFazer: "Gramado, é uma cidade localizada no Sul do Brasil, possui cerca de 37mil habitantes. Gramado, mais conhecida como Europa do Brasil, destaca-se por seu vinho e culinária marcante, possui destaque no setor hoteleiro além de diversos pontos turísticos para os mais variados gostos",
+    oQueFazer: "Gramado, é uma cidade localizada no Sul do Brasil, possui cerca de 37mil habitantes. Gramado é conhecida como Europa do Brasil, destaca-se por seus hotéis luxuosos além de possuir diversos pontos turísticos para os mais variados gostos",
     imagem: "./imagens/gramado.png",
     saibaMais: "https://pt.wikipedia.org/wiki/Gramado"
 }]
